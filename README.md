@@ -143,5 +143,6 @@ Even though it is basic, it gives a good foundation for building more advanced s
 
 ## Author  
 
-- Santhosh U  
-- Student | AI & ML Enthusiast  
+Santhosh U  
+---
+Student | AI & ML Enthusiast  
