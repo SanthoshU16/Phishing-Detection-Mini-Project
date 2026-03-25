@@ -106,12 +106,12 @@ Output: Domain is safe
 
 ## Task 3: Use Case  
 
-This system can be used as a background security tool in apps.  
-It can be used in browsers to warn users before opening fake websites.  
-It can also be built as a website where users can check links for safety.  
-Companies can use it to protect user accounts and sensitive data.  
-It helps users avoid scams and improve online security.  
-It is an effective technique that helps prevent attacks before they reach the user.
+- This system can be used as a background security tool in apps.  
+- It can be used in browsers to warn users before opening fake websites.  
+- It can also be built as a website where users can check links for safety.  
+- Companies can use it to protect user accounts and sensitive data.  
+- It helps users avoid scams and improve online security.  
+- It is an effective technique that helps prevent attacks before they reach the user.
 
 ---
 
@@ -136,8 +136,8 @@ It is an effective technique that helps prevent attacks before they reach the us
 
 ## Conclusion  
 
-This project shows how simple logic can be used to detect phishing attempts.  
-Even though it is basic, it gives a good foundation for building more advanced security systems.
+- This project shows how simple logic can be used to detect phishing attempts.  
+- Even though it is basic, it gives a good foundation for building more advanced security systems.
 
 ---
 
