@@ -85,20 +85,20 @@ This program checks whether a website is safe or potentially suspicious by compa
 
 ### Example Explanations  
 
-**Exact Match (Safe)**  
+- **Exact Match (Safe)**  
 Input: google.com  
 Output: Domain is safe  
 
-**Phishing Attempt (Similar Domain)**  
+- **Phishing Attempt (Similar Domain)**  
 Input: g00gle.com  
 Process: g00gle.com becomes google.com after normalization  
 Output: Suspicious domain  
 
-**Unknown Website**  
+- **Unknown Website**  
 Input: mysite123.com  
 Output: Unknown domain  
 
-**Case Variation (Safe)**  
+- **Case Variation (Safe)**  
 Input: gOOgle.com  
 Output: Domain is safe  
 
