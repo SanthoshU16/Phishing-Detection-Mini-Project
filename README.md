@@ -15,10 +15,9 @@ The main goal is to demonstrate basic programming, logical thinking, and underst
 ## Project Structure  
 
 phishing-detection/
-│── email_checker.py
-│── domain_checker.py
-│── README.md
-
+-├── email_checker.py
+-├── domain_checker.py
+-└── README.md
 
 ---
 
