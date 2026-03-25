@@ -141,8 +141,16 @@ Even though it is basic, it gives a good foundation for building more advanced s
 
 ---
 
-## Author  
+## 👨‍💻Author  
 ---
 Santhosh U
 ---
 Student | AI & ML Enthusiast  
+
+---
+## 📫 Connect With Me
+
+- 💼 LinkedIn: *https://www.linkedin.com/in/santhoshu1/*
+- 📧 Email: *usanthosh0905@gmial.com*
+- 🌐 GitHub: *https://github.com/SanthoshU16*
+- 👨‍💻 Portfolio: *https://portfolio-murex-kappa-39.vercel.app*
