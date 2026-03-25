@@ -23,6 +23,8 @@ phishing-detection/
 ```
 ---
 
+---
+
 ## Task 1: Basic Email Checker  
 
 ### Description  
@@ -52,3 +54,94 @@ Warning: This email may be risky
 Enter the email content: Hello, how are you?  
 
 **Output:**  
+This email looks safe  
+
+---
+
+## Task 2: Domain Check  
+
+### Description  
+This program checks whether a website is safe or potentially suspicious by comparing it with a list of trusted domains.
+
+### Logic Used  
+- Accepts a single website input  
+- Converts it to lowercase (case-insensitive handling)  
+- Uses a predefined list of trusted domains:  
+  - google.com  
+  - chatgpt.com  
+  - facebook.com  
+  - amazon.com  
+
+- Applies normalization to detect phishing tricks:  
+  - 0 → o  
+  - 1 → l  
+
+- Compares:  
+  - Exact match → Safe  
+  - Match after normalization → Suspicious  
+  - No match → Unknown  
+
+---
+
+### Example Explanations  
+
+**Exact Match (Safe)**  
+Input: google.com  
+Output: Domain is safe  
+
+**Phishing Attempt (Similar Domain)**  
+Input: g00gle.com  
+Process: g00gle.com becomes google.com after normalization  
+Output: Suspicious domain  
+
+**Unknown Website**  
+Input: mysite123.com  
+Output: Unknown domain  
+
+**Case Variation (Safe)**  
+Input: gOOgle.com  
+Output: Domain is safe  
+
+---
+
+## Task 3: Use Case  
+
+This system can be used as a background security tool in apps.  
+It can be used in browsers to warn users before opening fake websites.  
+It can also be built as a website where users can check links for safety.  
+Companies can use it to protect user accounts and sensitive data.  
+It helps users avoid scams and improve online security.  
+It is an effective technique that helps prevent attacks before they reach the user.
+
+---
+
+## Key Learnings  
+
+- Importance of input validation  
+- Basic understanding of phishing attacks  
+- Applying simple logic to real-world problems  
+- Improving basic ideas into practical solutions  
+
+---
+
+## Future Improvements  
+
+- Add more phishing patterns (such as rn → m, vv → w)  
+- Use machine learning for better detection  
+- Build a web interface using Flask or Django  
+- Create a browser extension  
+- Integrate real-time URL checking APIs  
+
+---
+
+## Conclusion  
+
+This project shows how simple logic can be used to detect phishing attempts.  
+Even though it is basic, it gives a good foundation for building more advanced security systems.
+
+---
+
+## Author  
+
+Santhosh U
+Student | AI & ML Enthusiast  
